@@ -1,0 +1,145 @@
+.navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h1{
+    color: tomato;
+    font-style:italic;
+}
+.navbar p{
+    color: tomato;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 10px;
+}
+.icon{
+    height: 35px;
+}
+
+.icon-basket{
+    height: 40px;
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+.navbar-menu li{
+    cursor: pointer;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.navbar button{
+    background-color: transparent;
+    font-size: 12px;
+    color: tomato;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.navbar button:hover{
+    background-color: tomato;
+    color: #fff;
+}
+
+.nav-hover{
+    color: tomato;
+}
+
+
+
+.navbar-search-icon{
+    position: relative;
+}
+
+.nav-hover:hover{
+    font-size: 25px;
+    padding-bottom: 2px;
+    transition: .3s;
+    color: #fff;
+}
+
+
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width: 8px;
+    min-height: 8px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -1px;
+    right: -1px;
+}
+
+@media (max-width:1050px) {
+    .navbar h1{
+        width: 140px;
+    }
+
+    .navbar-menu{
+        gap: 20px;
+        font-size: 17px;
+    }
+    .navbar-right{
+        gap: 30px;
+    }
+    .navbar-right img{
+        width: 22px;
+    }
+    .navbar-right button{
+        padding: 8px 25px;
+    }
+    .nav-hover:hover{
+        font-size: 25px;
+        padding-bottom: 2px;
+        transition: .3s;
+        color: #fff;
+    }
+    
+    
+}
+
+@media (max-width:900px) {
+    .navbar h1{
+        width: 120px;
+    }
+    .navbar-menu{
+        gap: 15px;
+        font-size: 16px;
+    }
+    .navbar-right{
+        gap: 20px;
+    }
+    .navbar-right img{
+        width: 20px;
+    }
+    .navbar-right button{
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+    .nav-hover:hover{
+        font-size: 20px;
+        padding-bottom: 2px;
+        transition: .3s;
+        color: #fff;
+    }
+    
+    
+}
+
+@media (max-width:750px) {
+   
+    .navbar-menu{
+        display: none ;
+    }
+   
+}
