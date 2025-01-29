@@ -6,10 +6,14 @@
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
     align-items: center;
-    color: grey;
+    color: tomato;
     font-size: max(1vw,12px);
 }
+.item-img{
+    border-radius: 100px;
+    border: 3px solid tomato;
 
+}
 .cart-total h2{
     color:tomato;
     font-size: 25px;

@@ -17,7 +17,7 @@
 .food-item-info{
     padding: 20px;
     background-color: #323232;
-    border-radius: 0px 0px 15px 15px ;
+    border-radius: 0px 0px 100px 100px ;
     
 }
 
@@ -48,6 +48,7 @@
     font-size: 20px;
     font-weight: 500;
     margin: 12px 0px;
+    text-align: center;
 }
 
 .food-item-img-container{

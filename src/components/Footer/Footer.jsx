@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='footer' id='footer'>
         <div className="footer-content">
             <div className="footer-content-left">
-                <h1>Spizy</h1>
+                <h1>Foodify</h1>
                 <p>Order your favorite food in just a few taps.
               Fast delivery, fresh flavors, and endless choices.
               Satisfy your cravings anytime, anywhere!</p>

@@ -133,6 +133,22 @@
         color: #fff;
     }
     
+    .icon{
+        height: 15px;
+    }
+    .icon-basket{
+        height: 17px;
+    }
+    .navbar-search-icon .dot{
+        position: absolute;
+        min-width: 5px;
+        min-height: 5px;
+        background-color: tomato;
+        border-radius: 5px;
+        top: -1px;
+        right: -1px;
+    }
+    
     
 }
 
@@ -141,5 +157,6 @@
     .navbar-menu{
         display: none ;
     }
+   
    
 }

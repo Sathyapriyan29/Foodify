@@ -11,7 +11,6 @@ const Navbar = ({setShowLogin}) => {
     <div className='navbar'>
         <div>
         <h1>Foodify</h1>
-        <p>Fresh - Fast</p>
         </div>
         <ul className="navbar-menu">
             <Link to="/"  className='nav-hover'>Home</Link>
